@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("li").click(function(){
-    $(this).toggleClass("blue");
+  $(".card").click(function(){
+    $(this).toggleClass("card");
+    $(this).toggleClass("definition")
   });
 });
