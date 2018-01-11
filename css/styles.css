@@ -5,3 +5,17 @@
 .definition > li {
   display: none;
 }
+
+.definition {
+  border: 2px solid blue;
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 150%; 
+  font-weight: bold;
+}
